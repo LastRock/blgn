@@ -1,0 +1,5387 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:15:11 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>991</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestAddCookies category">org.apache.http.client.protocol.RequestAddCookies</td>
+<td>RequestAddCookies.java:123</td>
+<td title="Message">CookieSpec selected: standard</td>
+</tr>
+
+<tr>
+<td>1006</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestAuthCache category">org.apache.http.client.protocol.RequestAuthCache</td>
+<td>RequestAuthCache.java:77</td>
+<td title="Message">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td>1012</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:265</td>
+<td title="Message">Connection request: [route: {s}-&gt;https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td>1028</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:309</td>
+<td title="Message">Connection leased: [id: 0][route: {s}-&gt;https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td>1028</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:235</td>
+<td title="Message">Opening connection {s}-&gt;https://raw.githubusercontent.com:443</td>
+</tr>
+
+<tr>
+<td>1075</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultHttpClientConnectionOperator category">org.apache.http.impl.conn.DefaultHttpClientConnectionOperator</td>
+<td>DefaultHttpClientConnectionOperator.java:139</td>
+<td title="Message">Connecting to raw.githubusercontent.com/151.101.48.133:443</td>
+</tr>
+
+<tr>
+<td>1075</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:337</td>
+<td title="Message">Connecting socket to raw.githubusercontent.com/151.101.48.133:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td>1465</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:390</td>
+<td title="Message">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td>1465</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:391</td>
+<td title="Message">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td>1465</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:395</td>
+<td title="Message">Starting handshake</td>
+</tr>
+
+<tr>
+<td>1653</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:425</td>
+<td title="Message">Secure session established</td>
+</tr>
+
+<tr>
+<td>1653</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:426</td>
+<td title="Message"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td>1653</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:427</td>
+<td title="Message"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td>1653</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:435</td>
+<td title="Message"> peer principal: CN=www.github.com, O=&quot;GitHub, Inc.&quot;, L=San Francisco, ST=California, C=US</td>
+</tr>
+
+<tr>
+<td>1653</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:444</td>
+<td title="Message"> peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]</td>
+</tr>
+
+<tr>
+<td>1653</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:448</td>
+<td title="Message"> issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US</td>
+</tr>
+
+<tr>
+<td>1653</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultHttpClientConnectionOperator category">org.apache.http.impl.conn.DefaultHttpClientConnectionOperator</td>
+<td>DefaultHttpClientConnectionOperator.java:146</td>
+<td title="Message">Connection established 192.168.1.170:57176&lt;-&gt;151.101.48.133:443</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultManagedHttpClientConnection category">org.apache.http.impl.conn.DefaultManagedHttpClientConnection</td>
+<td>LoggingManagedHttpClientConnection.java:88</td>
+<td title="Message">http-outgoing-0: set socket timeout to 30000</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:256</td>
+<td title="Message">Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:261</td>
+<td title="Message">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:267</td>
+<td title="Message">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:133</td>
+<td title="Message">http-outgoing-0 &gt;&gt; GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:136</td>
+<td title="Message">http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.6</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:136</td>
+<td title="Message">http-outgoing-0 &gt;&gt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:136</td>
+<td title="Message">http-outgoing-0 &gt;&gt; Host: raw.githubusercontent.com</td>
+</tr>
+
+<tr>
+<td>1669</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:136</td>
+<td title="Message">http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td>1684</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1684</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.6[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1684</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1684</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;Host: raw.githubusercontent.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1684</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1684</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1747</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1747</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1747</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Strict-Transport-Security: max-age=31536000[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1747</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Content-Type-Options: nosniff[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1747</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Frame-Options: deny[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1747</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-XSS-Protection: 1; mode=block[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;ETag: W/&quot;adf5bc06f84cfbd371b333edb9ba369ba5fe16daf88953eab30d918e59257d4c&quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Content-Type: text/plain; charset=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Cache-Control: max-age=300[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Geo-Block-List:[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Via: 1.1 varnish-v4[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-GitHub-Request-Id: F738:1F18:21409E:2B57FA:5E1B3E7A[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Content-Encoding: gzip[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Content-Length: 679[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Accept-Ranges: bytes[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Date: Sun, 12 Jan 2020 17:15:13 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Via: 1.1 varnish[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Served-By: cache-dfw18683-DFW[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Cache: HIT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Cache-Hits: 1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Timer: S1578849314.743714,VS0,VE38[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Vary: Authorization,Accept-Encoding[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Fastly-Request-ID: 3eabd89e28cb3d561fc65be4cccefbcf5e2de676[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Expires: Sun, 12 Jan 2020 17:20:13 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Source-Age: 120[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1762</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95][0xb9][0x8e][0xdb]0[0x10]@{[0x5][0x81]m[0x92][0xc2][0x14]/[0x91][0x92][0x1]69[0xab] E[0xf2][0x3][0xb2]M[0xdb][0xc2][0xca][0xa2]A[0xc9][0xeb]$_[0x1f][0xe][0xf][0x85]+$@[0xca][0xf7][0xc4]c&lt;3[0x1c]?[0xa1][0xef][0x97]~B[0xa7]~0[0xe8]`[0xc7][0xb9][0xeb][0xc7][0x9][0xcd][0x17][0x83][0x9e]G[0xfb][0x18][0xd1][0x8b]qSo[0xbd]:Y[0x87][0x8e][0xae][0x7]Fo[0xf6][0xfd][0xd8][0xb9][0x9f]o[0xfd][0x86][0xeb][0xad][0x9b][0xfb][0xbd][0xdf][0xfb][0xe8][0xe7]K[0xd8]w[0xb0][0xce][0x99][0xe9]f[0xc7]c?[0x9e][0xd1][0xde][0xd9][0xc7]d\&gt;g[0xb3]yB[0xef][0xa2][0xda][0xa1][0xcf][0xd6][0x9e][0xfd][0xce][0xf7][0x17]g[0xaf][0x6]m[0xd1][0x87]p[0xfc][0xe][0x1d][0x82][0x88][0x97][0xf9][0xf5][0xdf][0xec][0xdd][0x1d][0xcc][0xe]][0xe6][0xf9][0xb6][0xab][0xaa][0xf2]+[0xe][0xd0][0xdf][0xaf][0xd8][0xba]su[0xf4][0x1][0xf][0xb6];N[0x9b][0xb8][0xa6]![0xba]![0x98]`[0xde]6[\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;S[0x99][0xac]j[0xb5]j[0x83][0x15]5[0xe6][0x8b]m[0xb4]j[0x82]%[0x2]SRg[0xad][0xb4]R[0xa0][0x1b]YcA[0xb2][0x95]Z[0xc9]`I[0x8b])[[0xce][0xa8][0xb5][0xaa]A+E0[0xfd][0xb3]Zh%[0x82]f-^[0xd6]r[0xad]8H[0xd9]p,[0x9b]l[0x99]fX,k[0xe8]+&quot;@90[0xd9][0x2][0x89]L[\r][0x10][0xcb][0xa4][0x80]h&amp;[0x9][0x94][0x83][0x91][0xb5]'[0x9e][0xef][0x93][0x2]He[0xe2]@[0xf9]&gt;[0x9][0xb1][0xf0][0xe5]&gt;[0x88][0x85]/[0xf7]A,[0x9c][0xbf][0xaa][0xe6][0x17][0xfb][0xab][0x1f][0x86][0xe]}[0xea][0x9d]9[0xd9][0x1f]E=[0xcf][0xe6][0xf0]l[0xff]Z[0xce][0xc9][0xd7][0xf3][0xec][0x1b][0xe7][0xbe][0xc7][0xbe][0x95][0xaa]k&lt;[0xa2]*6T[0xce][0xc][0xa6][0x9b][0xcc][0xb4]9[0xc5]s[0xfd][0xf]'[0x98][0xf9][0xec]/[0xa2][0x1]Q[0x17]B[0x81][0x10][0x85][0x90]kQ[0xaf][0x85][0x0][0xc1][0xb][0xc1][0xd7][0x82][0x81]`[0x85][0xa0] h![0xc8]J[0xd4][0xed]Z4k[0xa1][0xd6]&quot;DJ[\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:87</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;QgQ[0xa6][0xfa][0xeb][0xcd][0xb8][0xae]H[0xb0][0x5][0xfe][0x9f][0x4][0x87][0x85][0x93]=[0xcd][0x8f][0xce][0x99]H[0xf9][0x5][0xad][0xd3][0x1d]&gt;[0xfa][0xcc][0xfd]y+[0xaa]M[0xb2].[0x9e]J[0xa3][0x92][0x14][0xc5]C[0xa1][0x8c]$[0xcb][0xcb][0x87][0xc2]Y[0xb2][0xac]|'$[0xaf]M[0xfd][0x1d][0xa0]nKH[0xdd][0x1d]!5w[0x84][0xd4][0xdb][0x11]RkGH[0x9d][0x1d]!5v[0x84][0xd4][0xd7][0x11]hl[0xe4][0x8][0xa4][0x0][0x1][0x11][0xe4][0x88][0x5]D[0xc0][0xd3]=[0x2]&quot;`)[0x19]BFx[0xf5][0x12][0xfa][0x83][0xb3][0x90]e[0xf4][0xf1]x.[0x7][0xdb]u2^[0xfc][0xb3]PG[0xf3]b[0x6]8[0x15]_[0xf3][0x9][0xa1]jf[0xdc][0xde][0xa7]jq[8[0xa4][0x9a][0xad][0x1d][0xa6][0xea]a[0xf6][0xa9]p[0x1b][0xb0][0xcb][0xc4][0x93][0xd4]woP[0xcb][0xb8][0xa3][0xd0][0xcd][0xc1][0xa4]Q[0xc7][0xa0]`[0xd1][0xa4])[0xc7][0xf8]b[0xd2][0x84][0xa3][0xcd][0xb2]+[\r]7[0xca][[0xdf][0x90]A[0x9][0xa1]o[0xce]l[0xfd][0x1f][0xc6][0xdc][\r][0x83]9F[0xc9][0xb4][0xc4]TQ?+[0x2]R[0xed][0xfb]A[0xb2][0xb6][0x8d]H[0xb4][0x1f][0xaf]5[0x91]18[0xde]h[0xee]'%o#2[0xa8][0xa0][0x1f][0xbe][0x8d][0x8c]H4[0xf5][0xc8]|[0x81][0x3]KN[0xab][0xfa][0xa6][0x6][0x0][0x0]&quot;</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:122</td>
+<td title="Message">http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Strict-Transport-Security: max-age=31536000</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Content-Type-Options: nosniff</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Frame-Options: deny</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-XSS-Protection: 1; mode=block</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; ETag: W/&quot;adf5bc06f84cfbd371b333edb9ba369ba5fe16daf88953eab30d918e59257d4c&quot;</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Content-Type: text/plain; charset=utf-8</td>
+</tr>
+
+<tr>
+<td>1778</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Cache-Control: max-age=300</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Geo-Block-List:</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Via: 1.1 varnish-v4</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-GitHub-Request-Id: F738:1F18:21409E:2B57FA:5E1B3E7A</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Content-Encoding: gzip</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Content-Length: 679</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Accept-Ranges: bytes</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Date: Sun, 12 Jan 2020 17:15:13 GMT</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Via: 1.1 varnish</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Served-By: cache-dfw18683-DFW</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Cache: HIT</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Cache-Hits: 1</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Timer: S1578849314.743714,VS0,VE38</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Vary: Authorization,Accept-Encoding</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Access-Control-Allow-Origin: *</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Fastly-Request-ID: 3eabd89e28cb3d561fc65be4cccefbcf5e2de676</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Expires: Sun, 12 Jan 2020 17:20:13 GMT</td>
+</tr>
+
+<tr>
+<td>1793</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Source-Age: 120</td>
+</tr>
+
+<tr>
+<td>1809</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:285</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>1825</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:341</td>
+<td title="Message">Connection [id: 0][route: {s}-&gt;https://raw.githubusercontent.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>1825</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultManagedHttpClientConnection category">org.apache.http.impl.conn.DefaultManagedHttpClientConnection</td>
+<td>LoggingManagedHttpClientConnection.java:88</td>
+<td title="Message">http-outgoing-0: set socket timeout to 0</td>
+</tr>
+
+<tr>
+<td>1825</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:348</td>
+<td title="Message">Connection released: [id: 0][route: {s}-&gt;https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td>1872</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>6487</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>9890</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.LoginPageTest category">onlineBanking.testcases.LoginPageTest</td>
+<td>LoginPageTest.java:32</td>
+<td title="Message">verify Login page SignUp Here test started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:15:22 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>10820</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>10867</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>14480</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:17:43 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>757</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4803</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>8149</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.LoginPageTest category">onlineBanking.testcases.LoginPageTest</td>
+<td>LoginPageTest.java:32</td>
+<td title="Message">verify Login page SignUp Here test started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:17:52 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>8993</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>9025</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>12565</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:18:35 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>662</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4717</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>7943</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.LoginPageTest category">onlineBanking.testcases.LoginPageTest</td>
+<td>LoginPageTest.java:32</td>
+<td title="Message">verify Login page SignUp Here test started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:18:43 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>7984</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>8004</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>11570</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:20:22 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>760</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4783</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>6442</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.LoginPageTest category">onlineBanking.testcases.LoginPageTest</td>
+<td>LoginPageTest.java:31</td>
+<td title="Message">verify Login page SignUp Here test started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:20:29 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>6462</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>6478</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>10065</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:24:20 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>733</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4759</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>6591</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.LoginPageTest category">onlineBanking.testcases.LoginPageTest</td>
+<td>LoginPageTest.java:31</td>
+<td title="Message">verify Login page SignUp Here test started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:24:26 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>6629</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>6653</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>10130</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:25:38 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>803</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4798</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>7207</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.LoginPageTest category">onlineBanking.testcases.LoginPageTest</td>
+<td>LoginPageTest.java:31</td>
+<td title="Message">verify Login page SignUp Here test started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:25:45 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>7256</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>7271</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>10699</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:37:44 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>637</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4722</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:43:18 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>624</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4656</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:48:39 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>651</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4711</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:52:01 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>633</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4688</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 11:58:40 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>742</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4911</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:02:05 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>633</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4895</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:04:54 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>671</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4684</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:06:02 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>735</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4881</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:12:40 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>614</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4762</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:14:21 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>881</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>5009</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:47:53 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>747</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4799</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:50:09 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>631</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4575</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>8058</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:30</td>
+<td title="Message">Enter write Firs Name Value test started</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:51:16 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>746</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4708</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 12:54:06 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>738</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4804</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:07:23 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>622</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4645</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>8236</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:31</td>
+<td title="Message">Title Value Slect started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:07:42 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>19245</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>19296</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>22873</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>25970</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:39</td>
+<td title="Message">First Name Value test started</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:11:44 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>744</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4909</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>8039</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:31</td>
+<td title="Message">Title Value Slect started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:12:03 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>19113</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>19174</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>22837</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>26570</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:39</td>
+<td title="Message">First Name Value test started</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:23:35 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>638</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4663</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>7572</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:32</td>
+<td title="Message">Title Value Slect started</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:25:07 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>15</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>614</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4658</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>7663</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:32</td>
+<td title="Message">Title Value Slect started</td>
+</tr>
+
+<tr>
+<td>14911</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:39</td>
+<td title="Message">Title Value Selected test completed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:45:56 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>623</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4548</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>7586</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:48</td>
+<td title="Message">Last Name Value test started</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:47:23 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>928</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>5380</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>8467</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:31</td>
+<td title="Message">Title Value Slect started</td>
+</tr>
+
+<tr>
+<td>14187</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:35</td>
+<td title="Message">Title Value Selected test completed</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:47:38 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>15104</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>15167</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>18678</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>20122</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:40</td>
+<td title="Message">First Name Value test started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:47:54 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>31162</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>31200</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>34790</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>36133</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:48</td>
+<td title="Message">Last Name Value test started</td>
+</tr>
+
+<tr>
+<td>47596</td>
+<td title="Finalizer thread">Finalizer</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:408</td>
+<td title="Message">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td>47598</td>
+<td title="Finalizer thread">Finalizer</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:414</td>
+<td title="Message">Connection manager shut down</td>
+</tr>
+
+<tr>
+<td>47601</td>
+<td title="Finalizer thread">Finalizer</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:408</td>
+<td title="Message">Connection manager is shutting down</td>
+</tr>
+
+<tr>
+<td>47603</td>
+<td title="Finalizer thread">Finalizer</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:414</td>
+<td title="Message">Connection manager shut down</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:53:55 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>611</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4613</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>7802</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:31</td>
+<td title="Message">Title Value Slect started</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:54:14 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>18823</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>18879</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>22426</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>26438</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:39</td>
+<td title="Message">First Name Value test started</td>
+</tr>
+
+<tr>
+<td>33542</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:43</td>
+<td title="Message">First Name Value test completed</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 13:54:30 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>34661</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>34685</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>38234</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>41257</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:48</td>
+<td title="Message">Last Name Value test started</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jan 12 14:29:57 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>670</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4641</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+
+<tr>
+<td>6990</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:40</td>
+<td title="Message">First Name Value test started</td>
+</tr>
+
+<tr>
+<td>13436</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="onlineBanking.testcases.SignupPageTest category">onlineBanking.testcases.SignupPageTest</td>
+<td>SignupPageTest.java:44</td>
+<td title="Message">First Name Value test completed</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:10:51 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>913</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestAddCookies category">org.apache.http.client.protocol.RequestAddCookies</td>
+<td>RequestAddCookies.java:123</td>
+<td title="Message">CookieSpec selected: standard</td>
+</tr>
+
+<tr>
+<td>925</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.client.protocol.RequestAuthCache category">org.apache.http.client.protocol.RequestAuthCache</td>
+<td>RequestAuthCache.java:77</td>
+<td title="Message">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td>926</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:265</td>
+<td title="Message">Connection request: [route: {s}-&gt;https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]</td>
+</tr>
+
+<tr>
+<td>945</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:309</td>
+<td title="Message">Connection leased: [id: 0][route: {s}-&gt;https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td>947</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:235</td>
+<td title="Message">Opening connection {s}-&gt;https://raw.githubusercontent.com:443</td>
+</tr>
+
+<tr>
+<td>959</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultHttpClientConnectionOperator category">org.apache.http.impl.conn.DefaultHttpClientConnectionOperator</td>
+<td>DefaultHttpClientConnectionOperator.java:139</td>
+<td title="Message">Connecting to raw.githubusercontent.com/151.101.192.133:443</td>
+</tr>
+
+<tr>
+<td>960</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:337</td>
+<td title="Message">Connecting socket to raw.githubusercontent.com/151.101.192.133:443 with timeout 0</td>
+</tr>
+
+<tr>
+<td>1048</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:390</td>
+<td title="Message">Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]</td>
+</tr>
+
+<tr>
+<td>1048</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:391</td>
+<td title="Message">Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]</td>
+</tr>
+
+<tr>
+<td>1049</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:395</td>
+<td title="Message">Starting handshake</td>
+</tr>
+
+<tr>
+<td>1124</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:425</td>
+<td title="Message">Secure session established</td>
+</tr>
+
+<tr>
+<td>1125</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:426</td>
+<td title="Message"> negotiated protocol: TLSv1.2</td>
+</tr>
+
+<tr>
+<td>1125</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:427</td>
+<td title="Message"> negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</td>
+</tr>
+
+<tr>
+<td>1126</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:435</td>
+<td title="Message"> peer principal: CN=www.github.com, O=&quot;GitHub, Inc.&quot;, L=San Francisco, ST=California, C=US</td>
+</tr>
+
+<tr>
+<td>1126</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:444</td>
+<td title="Message"> peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]</td>
+</tr>
+
+<tr>
+<td>1127</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.conn.ssl.SSLConnectionSocketFactory category">org.apache.http.conn.ssl.SSLConnectionSocketFactory</td>
+<td>SSLConnectionSocketFactory.java:448</td>
+<td title="Message"> issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US</td>
+</tr>
+
+<tr>
+<td>1129</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultHttpClientConnectionOperator category">org.apache.http.impl.conn.DefaultHttpClientConnectionOperator</td>
+<td>DefaultHttpClientConnectionOperator.java:146</td>
+<td title="Message">Connection established 192.168.1.94:57212&lt;-&gt;151.101.192.133:443</td>
+</tr>
+
+<tr>
+<td>1129</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultManagedHttpClientConnection category">org.apache.http.impl.conn.DefaultManagedHttpClientConnection</td>
+<td>LoggingManagedHttpClientConnection.java:88</td>
+<td title="Message">http-outgoing-0: set socket timeout to 30000</td>
+</tr>
+
+<tr>
+<td>1130</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:256</td>
+<td title="Message">Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>1130</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:261</td>
+<td title="Message">Target auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>1131</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:267</td>
+<td title="Message">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>1133</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:133</td>
+<td title="Message">http-outgoing-0 &gt;&gt; GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>1134</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:136</td>
+<td title="Message">http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.6</td>
+</tr>
+
+<tr>
+<td>1134</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:136</td>
+<td title="Message">http-outgoing-0 &gt;&gt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>1134</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:136</td>
+<td title="Message">http-outgoing-0 &gt;&gt; Host: raw.githubusercontent.com</td>
+</tr>
+
+<tr>
+<td>1135</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:136</td>
+<td title="Message">http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate</td>
+</tr>
+
+<tr>
+<td>1136</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1137</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.6[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1137</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1138</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;Host: raw.githubusercontent.com[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1139</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1139</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1149</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1150</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1150</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Content-Length: 679[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1151</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1151</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Strict-Transport-Security: max-age=31536000[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1152</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Content-Type-Options: nosniff[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1153</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Frame-Options: deny[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1153</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-XSS-Protection: 1; mode=block[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1154</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;ETag: W/&quot;adf5bc06f84cfbd371b333edb9ba369ba5fe16daf88953eab30d918e59257d4c&quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1154</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Content-Type: text/plain; charset=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1155</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Cache-Control: max-age=300[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1155</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Geo-Block-List: [\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1156</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Via: 1.1 varnish-v4[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1156</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-GitHub-Request-Id: 7AD4:2504:2FE0DA:3A8081:5E1CF0B7[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1157</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Content-Encoding: gzip[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1157</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Accept-Ranges: bytes[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1158</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Date: Tue, 14 Jan 2020 02:10:52 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1158</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Via: 1.1 varnish[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1159</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Served-By: cache-dal21243-DAL[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1159</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Cache: HIT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1160</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Cache-Hits: 1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1160</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Timer: S1578967852.259684,VS0,VE0[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1161</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Vary: Authorization,Accept-Encoding[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1161</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1161</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;X-Fastly-Request-ID: fa205ee5899479acd8bbd438f30aedbe5da249fd[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1162</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Expires: Tue, 14 Jan 2020 02:15:52 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1162</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;Source-Age: 202[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1162</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1166</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:122</td>
+<td title="Message">http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK</td>
+</tr>
+
+<tr>
+<td>1166</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>1167</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Content-Length: 679</td>
+</tr>
+
+<tr>
+<td>1167</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox</td>
+</tr>
+
+<tr>
+<td>1168</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Strict-Transport-Security: max-age=31536000</td>
+</tr>
+
+<tr>
+<td>1168</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Content-Type-Options: nosniff</td>
+</tr>
+
+<tr>
+<td>1169</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Frame-Options: deny</td>
+</tr>
+
+<tr>
+<td>1169</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-XSS-Protection: 1; mode=block</td>
+</tr>
+
+<tr>
+<td>1169</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; ETag: W/&quot;adf5bc06f84cfbd371b333edb9ba369ba5fe16daf88953eab30d918e59257d4c&quot;</td>
+</tr>
+
+<tr>
+<td>1170</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Content-Type: text/plain; charset=utf-8</td>
+</tr>
+
+<tr>
+<td>1170</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Cache-Control: max-age=300</td>
+</tr>
+
+<tr>
+<td>1171</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Geo-Block-List: </td>
+</tr>
+
+<tr>
+<td>1171</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Via: 1.1 varnish-v4</td>
+</tr>
+
+<tr>
+<td>1172</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-GitHub-Request-Id: 7AD4:2504:2FE0DA:3A8081:5E1CF0B7</td>
+</tr>
+
+<tr>
+<td>1172</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Content-Encoding: gzip</td>
+</tr>
+
+<tr>
+<td>1172</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Accept-Ranges: bytes</td>
+</tr>
+
+<tr>
+<td>1173</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Date: Tue, 14 Jan 2020 02:10:52 GMT</td>
+</tr>
+
+<tr>
+<td>1173</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Via: 1.1 varnish</td>
+</tr>
+
+<tr>
+<td>1173</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Served-By: cache-dal21243-DAL</td>
+</tr>
+
+<tr>
+<td>1174</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Cache: HIT</td>
+</tr>
+
+<tr>
+<td>1174</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Cache-Hits: 1</td>
+</tr>
+
+<tr>
+<td>1174</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Timer: S1578967852.259684,VS0,VE0</td>
+</tr>
+
+<tr>
+<td>1175</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Vary: Authorization,Accept-Encoding</td>
+</tr>
+
+<tr>
+<td>1175</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Access-Control-Allow-Origin: *</td>
+</tr>
+
+<tr>
+<td>1176</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; X-Fastly-Request-ID: fa205ee5899479acd8bbd438f30aedbe5da249fd</td>
+</tr>
+
+<tr>
+<td>1177</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Expires: Tue, 14 Jan 2020 02:15:52 GMT</td>
+</tr>
+
+<tr>
+<td>1179</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td>LoggingManagedHttpClientConnection.java:125</td>
+<td title="Message">http-outgoing-0 &lt;&lt; Source-Age: 202</td>
+</tr>
+
+<tr>
+<td>1190</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.execchain.MainClientExec category">org.apache.http.impl.execchain.MainClientExec</td>
+<td>MainClientExec.java:285</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>1199</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95][0xb9][0x8e][0xdb]0[0x10]@{[0x5][0x81]m[0x92][0xc2][0x14]/[0x91][0x92][0x1]69[0xab] E[0xf2][0x3][0xb2]M[0xdb][0xc2][0xca][0xa2]A[0xc9][0xeb]$_[0x1f][0xe][0xf][0x85]+$@[0xca][0xf7][0xc4]c&lt;3[0x1c]?[0xa1][0xef][0x97]~B[0xa7]~0[0xe8]`[0xc7][0xb9][0xeb][0xc7][0x9][0xcd][0x17][0x83][0x9e]G[0xfb][0x18][0xd1][0x8b]qSo[0xbd]:Y[0x87][0x8e][0xae][0x7]Fo[0xf6][0xfd][0xd8][0xb9][0x9f]o[0xfd][0x86][0xeb][0xad][0x9b][0xfb][0xbd][0xdf][0xfb][0xe8][0xe7]K[0xd8]w[0xb0][0xce][0x99][0xe9]f[0xc7]c?[0x9e][0xd1][0xde][0xd9][0xc7]d\&gt;g[0xb3]yB[0xef][0xa2][0xda][0xa1][0xcf][0xd6][0x9e][0xfd][0xce][0xf7][0x17]g[0xaf][0x6]m[0xd1][0x87]p[0xfc][0xe][0x1d][0x82][0x88][0x97][0xf9][0xf5][0xdf][0xec][0xdd][0x1d][0xcc][0xe]][0xe6][0xf9][0xb6][0xab][0xaa][0xf2]+[0xe][0xd0][0xdf][0xaf][0xd8][0xba]su[0xf4][0x1][0xf][0xb6];N[0x9b][0xb8][0xa6]![0xba]![0x98]`[0xde]6[\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1200</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:73</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;S[0x99][0xac]j[0xb5]j[0x83][0x15]5[0xe6][0x8b]m[0xb4]j[0x82]%[0x2]SRg[0xad][0xb4]R[0xa0][0x1b]YcA[0xb2][0x95]Z[0xc9]`I[0x8b])[[0xce][0xa8][0xb5][0xaa]A+E0[0xfd][0xb3]Zh%[0x82]f-^[0xd6]r[0xad]8H[0xd9]p,[0x9b]l[0x99]fX,k[0xe8]+&quot;@90[0xd9][0x2][0x89]L[\r][0x10][0xcb][0xa4][0x80]h&amp;[0x9][0x94][0x83][0x91][0xb5]'[0x9e][0xef][0x93][0x2]He[0xe2]@[0xf9]&gt;[0x9][0xb1][0xf0][0xe5]&gt;[0x88][0x85]/[0xf7]A,[0x9c][0xbf][0xaa][0xe6][0x17][0xfb][0xab][0x1f][0x86][0xe]}[0xea][0x9d]9[0xd9][0x1f]E=[0xcf][0xe6][0xf0]l[0xff]Z[0xce][0xc9][0xd7][0xf3][0xec][0x1b][0xe7][0xbe][0xc7][0xbe][0x95][0xaa]k&lt;[0xa2]*6T[0xce][0xc][0xa6][0x9b][0xcc][0xb4]9[0xc5]s[0xfd][0xf]'[0x98][0xf9][0xec]/[0xa2][0x1]Q[0x17]B[0x81][0x10][0x85][0x90]kQ[0xaf][0x85][0x0][0xc1][0xb][0xc1][0xd7][0x82][0x81]`[0x85][0xa0] h![0xc8]J[0xd4][0xed]Z4k[0xa1][0xd6]&quot;DJ[\n]&quot;</td>
+</tr>
+
+<tr>
+<td>1201</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td>Wire.java:87</td>
+<td title="Message">http-outgoing-0 &lt;&lt; &quot;QgQ[0xa6][0xfa][0xeb][0xcd][0xb8][0xae]H[0xb0][0x5][0xfe][0x9f][0x4][0x87][0x85][0x93]=[0xcd][0x8f][0xce][0x99]H[0xf9][0x5][0xad][0xd3][0x1d]&gt;[0xfa][0xcc][0xfd]y+[0xaa]M[0xb2].[0x9e]J[0xa3][0x92][0x14][0xc5]C[0xa1][0x8c]$[0xcb][0xcb][0x87][0xc2]Y[0xb2][0xac]|'$[0xaf]M[0xfd][0x1d][0xa0]nKH[0xdd][0x1d]!5w[0x84][0xd4][0xdb][0x11]RkGH[0x9d][0x1d]!5v[0x84][0xd4][0xd7][0x11]hl[0xe4][0x8][0xa4][0x0][0x1][0x11][0xe4][0x88][0x5]D[0xc0][0xd3]=[0x2]&quot;`)[0x19]BFx[0xf5][0x12][0xfa][0x83][0xb3][0x90]e[0xf4][0xf1]x.[0x7][0xdb]u2^[0xfc][0xb3]PG[0xf3]b[0x6]8[0x15]_[0xf3][0x9][0xa1]jf[0xdc][0xde][0xa7]jq[8[0xa4][0x9a][0xad][0x1d][0xa6][0xea]a[0xf6][0xa9]p[0x1b][0xb0][0xcb][0xc4][0x93][0xd4]woP[0xcb][0xb8][0xa3][0xd0][0xcd][0xc1][0xa4]Q[0xc7][0xa0]`[0xd1][0xa4])[0xc7][0xf8]b[0xd2][0x84][0xa3][0xcd][0xb2]+[\r]7[0xca][[0xdf][0x90]A[0x9][0xa1]o[0xce]l[0xfd][0x1f][0xc6][0xdc][\r][0x83]9F[0xc9][0xb4][0xc4]TQ?+[0x2]R[0xed][0xfb]A[0xb2][0xb6][0x8d]H[0xb4][0x1f][0xaf]5[0x91]18[0xde]h[0xee]'%o#2[0xa8][0xa0][0x1f][0xbe][0x8d][0x8c]H4[0xf5][0xc8]|[0x81][0x3]KN[0xab][0xfa][0xa6][0x6][0x0][0x0]&quot;</td>
+</tr>
+
+<tr>
+<td>1204</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:341</td>
+<td title="Message">Connection [id: 0][route: {s}-&gt;https://raw.githubusercontent.com:443] can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>1205</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.DefaultManagedHttpClientConnection category">org.apache.http.impl.conn.DefaultManagedHttpClientConnection</td>
+<td>LoggingManagedHttpClientConnection.java:88</td>
+<td title="Message">http-outgoing-0: set socket timeout to 0</td>
+</tr>
+
+<tr>
+<td>1206</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.impl.conn.PoolingHttpClientConnectionManager category">org.apache.http.impl.conn.PoolingHttpClientConnectionManager</td>
+<td>PoolingHttpClientConnectionManager.java:348</td>
+<td title="Message">Connection released: [id: 0][route: {s}-&gt;https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]</td>
+</tr>
+
+<tr>
+<td>1317</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>5836</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:11:54 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>651</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4703</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:18:24 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>764</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:18:35 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>686</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4747</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:19:35 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>628</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4703</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:41:26 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>706</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>5432</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:43:41 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>762</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4911</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:45:09 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>628</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4580</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 20:46:31 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>761</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4993</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 22:15:47 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>785</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4932</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 23:06:15 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>806</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4884</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 23:07:29 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>613</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4652</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 13 23:08:44 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>639</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4668</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 08:37:35 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>729</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>5223</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 09:42:46 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>711</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4994</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 13:02:01 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>714</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>5090</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 13:02:13 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>11294</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>11314</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>14848</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 13:03:22 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>687</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4888</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 13:10:46 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>675</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4980</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 13:14:50 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>686</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4839</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 13:26:18 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>623</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4779</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 14:04:26 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>649</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4709</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 14:07:50 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>628</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4727</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 15:15:09 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>780</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>5009</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 15:16:15 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>720</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4890</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 15:32:15 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>668</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4824</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jan 14 15:42:05 CST 2020<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:47</td>
+<td title="Message">browser is chrome</td>
+</tr>
+
+<tr>
+<td>626</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:50</td>
+<td title="Message">opening chrome browser</td>
+</tr>
+
+<tr>
+<td>4583</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.onlineBanking.base.BaseTest category">com.onlineBanking.base.BaseTest</td>
+<td>BaseTest.java:68</td>
+<td title="Message">navigate to the http://dbankdemo.com/login</td>
+</tr>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21883" started-at="2020-01-14T15:42:05 CST" finished-at="2020-01-14T15:42:27 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21883" started-at="2020-01-14T15:42:05 CST" finished-at="2020-01-14T15:42:27 CST">
+      <class name="onlineBanking.testcases.AcntWithdrawPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:onlineBanking.testcases.AcntWithdrawPageTest@53f65459]" name="setup" is-config="true" duration-ms="5620" started-at="2020-01-14T15:42:05 CST" finished-at="2020-01-14T15:42:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="WithdrawLinkTest()[pri:0, instance:onlineBanking.testcases.AcntWithdrawPageTest@53f65459]" name="WithdrawLinkTest" duration-ms="15232" started-at="2020-01-14T15:42:11 CST" finished-at="2020-01-14T15:42:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WithdrawLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:onlineBanking.testcases.AcntWithdrawPageTest@53f65459]" name="tearDown" is-config="true" duration-ms="986" started-at="2020-01-14T15:42:26 CST" finished-at="2020-01-14T15:42:27 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- onlineBanking.testcases.AcntWithdrawPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
